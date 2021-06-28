@@ -1,5 +1,18 @@
+body {
+    background-color:lightsteelblue;
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+    flex-direction: column;
+}
 h1 {
     margin-top: 80px;
+    color: red;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 100;
 }
 
 body {
@@ -43,6 +56,6 @@ li a.hover {
 }
 
 #searchbar {
-    position: center;
-    top: 100px;
+    text-align: left;
+    tmargin-top: 400px;
 }
