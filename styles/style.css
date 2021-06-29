@@ -59,3 +59,13 @@ li a.hover {
     text-align: left;
     tmargin-top: 400px;
 }
+#navbar-another {
+    left: 0px;
+    margin-top: 50px;
+    width: 100%;
+    background-color: lightskyblue;
+    color: white;
+    animation-name: backdiv;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
