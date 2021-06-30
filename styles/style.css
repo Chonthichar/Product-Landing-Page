@@ -6,13 +6,14 @@ body {
     flex-direction: column;
 }
 h1 {
-    margin-top: 80px;
-    color: red;
+    margin-top: 50px;
+    color: black;
 }
 
 p {
-    color: whitesmoke;
-    font-size: 100;
+    color: black;
+    font-size: 100px;
+    margin-top: 5px;
 }
 
 body {
@@ -64,8 +65,84 @@ li a.hover {
     margin-top: 50px;
     width: 100%;
     background-color: lightskyblue;
-    color: white;
+    color: black;
     animation-name: backdiv;
     animation-duration: 3s;
     animation-iteration-count: infinite;
+}
+
+.d1 {
+    background: lavenderblush;
+
+}
+.d2 {
+    background: lightgreen;
+}
+.d3 {
+    background: coral;
+}
+.container {
+    padding: 0.5em;
+    color: black;
+    margin-left: 300px;
+    font-size: 40px;
+    min-height: 20px;
+    width: 70%;
+    background: lightgray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px 20px;
+}
+footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 0.5em;
+    text-align: right;
+}
+
+#submit {
+    background-color: coral;
+    color: white;
+    width: 20px;
+}
+
+
+.a1 i {
+    margin-left: unset;
+}
+.a1 article {
+    text-align: left;
+    border: 0px solid gray;
+    width: 50%;
+    color: black;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 30px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.a2 article {
+    text-align: left;
+    border: 0px solid gray;
+    width: 50%;
+    color: black;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 30px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.a3 article {
+    text-align: left;
+    border: 0px solid gray;
+    width: 50%;
+    color: black;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 30px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
 }
