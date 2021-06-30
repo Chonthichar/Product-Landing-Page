@@ -1,3 +1,11 @@
+@media only screen
+and (min-width : 1224px) {
+}
+@media print {
+    #header {display:none;}
+    #footer {display:none;}
+}
+
 body {
     background-color:lightsteelblue;
     font-size: 30px;
