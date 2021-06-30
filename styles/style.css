@@ -6,7 +6,7 @@ body {
     flex-direction: column;
 }
 h1 {
-    margin-top: 50px;
+    margin-top: 150px;
     color: black;
 }
 
@@ -62,14 +62,15 @@ li a.hover {
 }
 #navbar-another {
     left: 0px;
-    margin-top: 50px;
-    width: 100%;
-    background-color: lightskyblue;
-    color: black;
-    animation-name: backdiv;
+    margin-top: 100px;
+    text-align: right;
+    background-color: lightsteelblue;
+    color: lightblue;
+    animation-name: jump;
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
+
 
 .d1 {
     background: lavenderblush;
@@ -116,7 +117,7 @@ footer {
     width: 50%;
     color: black;
     font-size: 30px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 30px;
     padding: 0px;
     box-sizing: border-box;
@@ -145,4 +146,9 @@ footer {
     padding: 0px;
     box-sizing: border-box;
     margin-bottom: 50px;
+}
+
+.form-control {
+    padding: 0px 0px 20px 0px;
+    margin: 20px;
 }
