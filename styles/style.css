@@ -98,7 +98,7 @@ li a.hover {
     min-height: 20px;
     width: 70%;
     background: lightgray;
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px 20px;
 }
