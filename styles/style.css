@@ -63,7 +63,6 @@ li a {
 li a.hover {
     background-color: black;
 }
-
 #searchbar {
     text-align: left;
     tmargin-top: 400px;
@@ -78,11 +77,8 @@ li a.hover {
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
-
-
 .d1 {
     background: lavenderblush;
-
 }
 .d2 {
     background: lightgreen;
@@ -108,14 +104,11 @@ footer {
     padding: 0.5em;
     text-align: right;
 }
-
 #submit {
     background-color: coral;
     color: white;
     width: 20px;
 }
-
-
 .a1 i {
     margin-left: unset;
 }
@@ -130,7 +123,6 @@ footer {
     padding: 0px;
     box-sizing: border-box;
 }
-
 .a2 article {
     text-align: left;
     border: 0px solid gray;
@@ -142,7 +134,6 @@ footer {
     padding: 0px;
     box-sizing: border-box;
 }
-
 .a3 article {
     text-align: left;
     border: 0px solid gray;
@@ -155,7 +146,6 @@ footer {
     box-sizing: border-box;
     margin-bottom: 50px;
 }
-
 .form-control {
     padding: 0px 0px 20px 0px;
     margin: 20px;
