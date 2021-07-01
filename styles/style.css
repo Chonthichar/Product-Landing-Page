@@ -14,7 +14,7 @@ body {
     flex-direction: column;
 }
 h1 {
-    margin-top: 150px;
+    margin-top: 200px;
     color: black;
 }
 
@@ -64,14 +64,15 @@ li a.hover {
     background-color: black;
 }
 #searchbar {
+    color: black;
     text-align: left;
-    tmargin-top: 400px;
+    margin-top: 8px;
 }
 #navbar-another {
     left: 0px;
     margin-top: 100px;
     text-align: right;
-    background-color: lightsteelblue;
+    background-color: ghostwhite;
     color: lightblue;
     animation-name: jump;
     animation-duration: 3s;
@@ -90,7 +91,7 @@ li a.hover {
     padding: 0.5em;
     color: black;
     margin-left: 300px;
-    font-size: 40px;
+    font-size: 30px;
     min-height: 20px;
     width: 70%;
     background: lightgray;
@@ -112,41 +113,44 @@ footer {
 .a1 i {
     margin-left: unset;
 }
-.a1 article {
+.a1 h5 {
+    font-family: "Cordia New";
     text-align: left;
-    border: 0px solid gray;
+    border: 0 solid gray;
     width: 50%;
     color: black;
     font-size: 30px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 30px;
-    padding: 0px;
+    padding: 0;
     box-sizing: border-box;
 }
-.a2 article {
+.a2 h6 {
+    font-family: "Cordia New";
     text-align: left;
-    border: 0px solid gray;
+    border: 0 solid gray;
     width: 50%;
     color: black;
     font-size: 30px;
-    margin-top: 100px;
+    margin-top: 5px;
     margin-left: 30px;
-    padding: 0px;
+    padding: 0;
     box-sizing: border-box;
 }
-.a3 article {
+.a3 h4 {
+    font-family: "Cordia New";
     text-align: left;
-    border: 0px solid gray;
+    border: 0 solid gray;
     width: 50%;
     color: black;
     font-size: 30px;
-    margin-top: 100px;
+    margin-top: 5px;
     margin-left: 30px;
-    padding: 0px;
+    padding: 0;
     box-sizing: border-box;
     margin-bottom: 50px;
 }
 .form-control {
-    padding: 0px 0px 20px 0px;
-    margin: 20px;
+    padding: 0 0 20px 0;
+    margin: 20px
 }
